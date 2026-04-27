@@ -3,3 +3,7 @@ image:
   tag: latest
   pullPolicy: IfNotPresent
 appMessage: "Payments Service"
+
+service:
+  type: ClusterIP
+  port: 80
